@@ -4,4 +4,4 @@ CUNY NYC College of Technology
 
 Ins & Outs of Physical Computing - Spring 2024
 
-Click here for our [WIKI](https://github.com/entertainmenttechnology/Pokorny-MTEC2280-Spring2024/wiki)
+Check out our [WIKI](https://github.com/entertainmenttechnology/Pokorny-MTEC2280-Spring2024/wiki) for syllabus, assignments, resources, etc.
