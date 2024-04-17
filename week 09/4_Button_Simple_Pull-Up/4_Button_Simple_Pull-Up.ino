@@ -29,6 +29,8 @@ void setup()
 
   // initialize pushbutton pin with internal pull-up resistor.
   pinMode(buttonPin, INPUT_PULLUP);  
+
+  Serial.begin(115200);
 }
 
 // loop runs infinitely
@@ -48,6 +50,7 @@ void loop()
   if (!buttonState) // if buttonState is NOT TRUE, aka equal to 0.
   {
     //then turn on LED
+    Serial.println(buttonState);
     digitalWrite(LED, HIGH);
   } 
   else 
