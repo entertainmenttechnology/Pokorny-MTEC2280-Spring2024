@@ -16,6 +16,7 @@ void loop()
   { // If data is available to read
     val = Serial.read(); // read it and store it in val
   }
-  analogWrite(LED, val);
+
+  analogWrite(LED, val); //PWM write 0-255
   delay(10); // Wait 10 milliseconds
 }
